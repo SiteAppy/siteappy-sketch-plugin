@@ -1,0 +1,61 @@
+{
+  "name": "Sketch Happy",
+  "description": "These plugins will make your life a whole lot easier when Sketching.",
+  "author": "Chris Bull",
+  "homepage": "https://github.com/siteappy/sketch-happy",
+  "version": 1.1,
+  "identifier": "com.siteappy.sketch.happy",
+  "updateURL": "https://github.com/downloads/example/sketchplugins/sketchplugins.json",
+  "compatibleVersion": 3.7,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Align Horizontally",
+      "identifier": "com.siteappy.happy.align.horizontally",
+      "shortcut": "ctrl cmd shift h",
+      "script": "Align/Align Horizontally.js"
+    },
+    {
+      "name": "Align Vertically",
+      "identifier": "com.siteappy.happy.align.vertically",
+      "shortcut": "ctrl cmd shift v",
+      "script": "Align/Align Vertically.js"
+    },
+    {
+      "name": "Align Left",
+      "identifier": "com.siteappy.happy.align.left",
+      "shortcut": "ctrl cmd shift {",
+      "script": "Align/Align Left.js"
+    },
+    {
+      "name": "Align Top",
+      "identifier": "com.siteappy.happy.align.top",
+      "shortcut": "ctrl cmd shift t",
+      "script": "Align/Align Top.js"
+    },
+    {
+      "name": "Align Right",
+      "identifier": "com.siteappy.happy.align.right",
+      "shortcut": "ctrl cmd shift }",
+      "script": "Align/Align Right.js"
+    },
+    {
+      "name": "Align Bottom",
+      "identifier": "com.siteappy.happy.align.bottom",
+      "shortcut": "ctrl cmd shift b",
+      "script": "Align/Align Bottom.js"
+    }
+  ],
+  "menu": {
+    "items": [
+      {
+         "title": "Align",
+         "items": [
+              "com.siteappy.happy.align.horizontally",
+              "com.siteappy.happy.align.vertically",
+              "com.siteappy.happy.align.left"
+          ]
+      }
+    ]
+  }
+}
